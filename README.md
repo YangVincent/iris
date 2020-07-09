@@ -16,3 +16,10 @@
 9. `sudo apt-get install portaudio19-dev python-pyaudio python3-pyaudio` (https://stackoverflow.com/questions/48690984/portaudio-h-no-such-file-or-directory)
 10. Try #2 again. Success!
 11. Try running `python -m speech_recognition`. It fails, because it can't find my mic. Cry.
+
+---
+Mac
+##
+1, 2, 3: Same as above
+4. On "portaudio.h", run brew install portaudio
+5. pip install pyAudio
